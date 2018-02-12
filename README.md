@@ -18,3 +18,9 @@ Source codes or jupyter notebooks.
 ### submission
 Submission files to Kaggle
 <h>Naming convention: submit-<model_name>.csv
+
+### accessing the fastai library
+To access the fastai library from the working directory, you'll need to create a symlink to the fastai folder. To do this, first remove the existing fastai folder that in this repo, and add the symlink using the following command:
+
+* `mklink /d fastai <fastai directory>`
+* e.g `mklnk /d fastai C:\Users\ikanez\Dropbox\fastai_pytorch\fastai
